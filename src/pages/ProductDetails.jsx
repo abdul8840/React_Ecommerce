@@ -34,7 +34,7 @@ const ProductDetails = ({ products }) => {
             <h4 className='font-serif font-900 flex gap-2'><FaShoppingBasket className='mt-1 ml-4' /> 
             {product.stock} Items<span className='text-green-700'> In Stock </span></h4>
           </div>
-          <p className='mt-3 mb-8 text-xl font-serif font-900'>
+          <p className='mt-3 mb-8 text-xl font-serif font-800'>
             ${product.new_price}
             <span className='ml-5 line-through text-green-700'>${product.old_price}</span>
           </p>
