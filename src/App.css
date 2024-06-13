@@ -1,0 +1,6 @@
+.back_img{
+  background-image: url(assets/47.jpg);
+  height: 80vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
